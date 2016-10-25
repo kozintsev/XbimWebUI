@@ -122,9 +122,9 @@
             viewer.zoomTo(id);
             keepTarget = true;
         });
-
-        viewer.load( "tests/data/LakesideRestaurant.wexbim");
-        browser.load("tests/data/LakesideRestaurant.json");
+        // global_model.wexbim
+        viewer.load("tests/data/global_model.wexbim");
+        browser.load("tests/data/global_model.json");
 
         //var cube = new xNavigationCube();
         //viewer.addPlugin(cube);
