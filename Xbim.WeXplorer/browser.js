@@ -122,7 +122,7 @@
             viewer.zoomTo(id);
             keepTarget = true;
         });
-        // global_model.wexbim
+
         viewer.load("tests/data/global_model.wexbim");
         browser.load("tests/data/global_model.json");
 
